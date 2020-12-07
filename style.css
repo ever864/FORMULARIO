@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background: #645f5f;
+}
+
+h1,h2, p, label, ul, li{
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    color: white;
+    
+}
+
+
+
+
+.cuerpo_formulario{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.formulario_general{
+    margin: 40px auto 0 auto;
+    background: linear-gradient(90deg, rgba(128,123,221,1) 0%, rgba(55,203,196,1) 49%, rgba(0,212,255,1) 100%);
+    width: 300px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.7rem;
+    box-shadow: 0 0 20px 0 rgba(242, 240, 240, 0.3);
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.formulario input{
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #ddd9d9;
+}
+
+form :last-child{
+    border-radius: 13px ;
+    border: rgb(201, 28, 28);
+    background: #1ab32e;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    cursor: pointer;
+}
+
+form :last-child:hover,
+form :last-child:focus{
+    background: #d63031;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+.participantes{
+    display:flex ;
+    flex-direction: column;
+}
+.button__sortear{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    border-radius: 13px ;
+    border: rgb(201, 28, 28);
+    background: #1ab32e;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    cursor: pointer;
+    color: white
+}
+
+button:hover,
+button:focus{
+    background: #303bd6;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
